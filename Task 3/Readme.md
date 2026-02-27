@@ -1,16 +1,11 @@
 # Task 3: Debugging Challenge
-
-Here are my fixes for code.
-
 ---
 ## Part A:  JavaScript
 
 ### Problem
 
-There were mainly two problems in the code:
-
 1. The loop was printing `"Iteration: 3"` three times instead of `0, 1, 2`.  
-   The happened because the code used `var`, which doesn’t store a separate value of `i` for each loop iteration. The loop finishes almost instantly, but `setTimeout` runs after 1 second. By then, `i` is already 3, so it prints `"3"` instead of `0, 1, 2`.
+   The happened because the code used `var`, which doesn’t store a separate value of `i` for each loop iteration. The loop finishes instantly, but `setTimeout` runs after 1 second. By then, `i` is already 3, so it prints `"3"` instead of `0, 1, 2`.
 
 
 2. The code directly updated `innerText` without checking whether the element with id `"display"` actually exists.  
