@@ -4,9 +4,9 @@ This repository contains my solutions for the IEEE recruitment tasks.
 
 ---
 
-## 🚀 Tasks Overview
+## Tasks:
 
-### Task 1: Frontend - "Explore Our Technical Chapters"
+### Task 1: Frontend : "IEEE Chapter Team Card"
 Created a clean, modern "Team Section" inspired by the current IEEE RITB website.
 * **Tech Stack**: React, Tailwind CSS, and Vite.
 * **Work done**: 
@@ -42,8 +42,9 @@ Developed a simple REST API to manage a list of club members.
 **2. After Promotion**
 ![Jesse Promoted](./2.png)
 
-### Task 3: Debugging Challenge
 ---
+### Task 3: Debugging Challenge
+
 ### Part A:  JavaScript
 
 #### Problem
@@ -91,6 +92,7 @@ function Counter() {
 
   return handleIncrement;
 ```
+---
 
 ### Part B: Express.js API
 
